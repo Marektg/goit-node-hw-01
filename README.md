@@ -3,6 +3,8 @@ Project made as part of the course [FULLSTACK PROGRAMISTA OD ZERA](https://goit.
 Technologies used:
 
 => Node
+
+
 Get contacts list
 ![Contacts List ](/screenshots/list.jpg "Contacts List")
 
