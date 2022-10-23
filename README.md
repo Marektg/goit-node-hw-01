@@ -4,5 +4,5 @@ Technologies used:
 
 => Node
 
-![Contacts List ]('screenshots/list.jpg' "Contacts List")
+![Contacts List ](/screenshots/list.jpg "Contacts List")
 Made by [Marek Kalus](www.linkedin.com/in/marek-kalus-61a240247)
