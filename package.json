@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marektg/goit-node-hw-01.git"
+  },
+  "author": "Marek Kalus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marektg/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/Marektg/goit-node-hw-01#readme"
+}
