@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
-import uniqid from 'uniqid';
+const uniqid = require("uniqid");
 const contactsPath = path.resolve("./db/contacts.json");
 
 const listContacts = async () => {
@@ -37,7 +37,7 @@ const removeContact =async (Id) => {
 const addContact = async (name, email, phone) => {
     try {
         const contacts = await listContacts();
-        const newContact = { id: uniqid(), name, email, phone };
+        const newContact = { id: uniqid(),  name, email, phone };
         const newContacts = [...contacts, newContact];
         await fs.writeFile(contactsPath, JSON.stringify(newContacts, null, 2));
         return newContact;
